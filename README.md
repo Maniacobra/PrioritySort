@@ -12,7 +12,7 @@ The logic of this algorithm is close to LSD Radix Sort (base 2), but using an ar
 
 ------
 
-This algorithm has no practical purposes right now as the built-in 'sorted' function of Python written in C will always be more effective than anything else programmed in Python.
+The algorithm implemented in Python has no practical purposes right now as the built-in 'sorted' function of Python written in C will always be more effective than anything else programmed in Python.
 
 But I'm looking to make an implementation of it in C.
 In C, using pre-existing linked list structures as a parameter, this algorithm would be extremely effective, as it would have a constant space complexity AND a linear time complexity. Making it the perfect sorting algorithm under the right conditions (integers only, and linked list structure).
